@@ -1,0 +1,177 @@
+body {
+    font-size: 17px;
+    background-color: gray;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    line-height: 1.5;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+#img-div {
+    background: white;
+    padding: 20px;
+    margin: 0;
+}
+
+blockquote {
+    max-width: 545px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 2px;
+    border: 1px solid gray;
+    padding: 20px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+#main {
+    background-color: #eee;
+}
+
+#hr-1 {
+    width: 70%;
+    margin-top: 30px;
+}
+
+#intro-text {
+    margin: 0 auto;
+    width: 60%;
+}
+
+#image {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    box-shadow: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25), 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.25);
+    filter: grayscale(100%);
+    transition: .5s ease-in-out;
+}
+
+#image:hover {
+    filter: grayscale(0%);
+}
+
+#img-div {
+    padding: 20px;
+    margin: 0;
+}
+
+#img-caption {
+    margin: 15px 0 5px 0;
+}
+
+@media (max-width:468px) {
+    body {
+        max-width: 100%;
+        font-size: 3vw;
+    }
+    blockquote {
+        max-width: 100%;
+        font-size: 3vw;
+    }
+}
+
+.container {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.info-text-1 {
+    display: flex;
+    max-width: 100%;
+}
+
+.info-text-2 {
+    display: flex;
+    max-width: 100%;
+}
+
+.diana-text {
+    max-width: 100%;
+    margin-left: 45px;
+    text-align: center;
+    align-self: center;
+}
+
+.diana {
+    margin: 10px;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    filter: grayscale(100%);
+    transition: .5s ease-in-out;
+    box-shadow: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25), 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.25);
+}
+
+.diana:hover {
+    filter: grayscale(0%);
+}
+
+@media(max-width:902px) {
+    .diana {
+        width: 100%;
+    }
+}
+
+@media (max-width:468px) {
+    .container {
+        max-width: 100%;
+    }
+    .diana {
+        margin-bottom: 30px;
+    }
+    .diana-text {
+        font-size: 3vw;
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .info-text-1 {
+        margin-bottom: 0;
+        flex-direction: column;
+    }
+    .info-text-2 {
+        flex-direction: column;
+    }
+    footer {
+        font-size: 2vw;
+    }
+}
+
+@media (max-width:903px) {
+    .container {
+        max-width: 100%;
+    }
+    .diana {
+        margin-bottom: 30px;
+    }
+    .diana-text {
+        font-size: 2vw;
+        margin: 0 auto;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .info-text-1 {
+        margin-bottom: 0;
+        flex-direction: column;
+    }
+    .info-text-2 {
+        flex-direction: column;
+    }
+    footer {
+        font-size: 2vw;
+    }
+}
+
+footer {
+    float: right;
+}
+
+footer a {
+    text-decoration: none;
+}
